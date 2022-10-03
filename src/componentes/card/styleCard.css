@@ -1,0 +1,41 @@
+.colorCard {
+  background: rgb(149, 190, 244);
+  background: linear-gradient(
+    315deg,
+    rgba(149, 190, 244, 1) 0%,
+    rgba(95, 109, 242, 1) 88%
+  );
+  box-shadow: 11px 8px 87px 5px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 11px 8px 87px 5px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 11px 8px 87px 5px rgba(0, 0, 0, 0.74);
+}
+
+.divText {
+  background-color: #aed4ef;
+}
+
+.divCard {
+  /*  background-color: #4f5bac; */
+  /*   background-image: url('../../image/cielo10.jpg');
+  background-size: center;
+  background-position: center; */
+  box-shadow: 11px 8px 87px 5px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 11px 8px 87px 5px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 11px 8px 87px 5px rgba(0, 0, 0, 0.74);
+}
+
+.enlace {
+  text-decoration: none;
+  color: white;
+}
+.enlace:hover {
+  color: #f68c09;
+}
+.imgclima {
+  width: 60%;
+  height: 60%;
+}
+
+.boton {
+  width: 30px;
+}

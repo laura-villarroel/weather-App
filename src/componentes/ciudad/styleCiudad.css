@@ -1,0 +1,44 @@
+/* .imgeciudad {
+  width: 40%;
+  height: 60%;
+} */
+/* .alto {
+background-color: #4f5bac;  width: 280px;
+  
+} */
+/* .contimg {
+  height: 100px;
+} */
+
+.bordecard {
+  border-bottom: 1px solid rgb(213, 207, 207);
+}
+
+@media (min-width: 992px) {
+  .bordecard {
+    border-right: 1px solid rgb(213, 207, 207);
+    border-bottom: none;
+  }
+}
+/* @media (min-width: 576px) {
+  .alto {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .alto {
+    width: 600px;
+  }
+} */
+/* @media (min-width: 992px) {
+  .alto {
+    width: 950px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .alto {
+    width: 1100px;
+  }
+} */
