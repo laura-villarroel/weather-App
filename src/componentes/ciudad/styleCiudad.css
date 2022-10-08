@@ -10,6 +10,9 @@ background-color: #4f5bac;  width: 280px;
   height: 100px;
 } */
 
+.ciudad-div {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
 .bordecard {
   border-bottom: 1px solid rgb(213, 207, 207);
 }

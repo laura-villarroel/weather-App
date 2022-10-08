@@ -2,7 +2,7 @@
 // font-family: 'Montserrat', sans-serif;
 $font-family-base: 'Montserrat', sans-serif;
 
-$success: #4f5bac;
+$success: rgba(79, 91, 172, 0.331);
 $primary: #313fa0;
 
 $enable-negative-margins: true;
@@ -10,7 +10,9 @@ $enable-negative-margins: true;
 @import '../../node_modules/bootstrap/scss/utilities';
 
 .App {
-  background-image: url('../image/globo3.jpg');
+  background: linear-gradient(rgb(0, 0, 0, 0.3) 0%, rgb(0, 0, 0, 0.5) 100%),
+    url('../image/globo3.jpg');
+  /* background-image: url('../image/globo3.jpg'); */
   background-size: cover;
   background-position: center;
   height: 100vh;

@@ -25,7 +25,7 @@ export default function Card({
   };
   return (
     <div className=" ">
-      <div className="divCard card h-100 rounded-4 border border-primary cartadiv  bg-success">
+      <div className=" card h-100 rounded-4 border border-primary cartadiv colorCard bg-success">
         <div className=" card-header p-1 m-1 d-grid gap-2 d-md-flex justify-content-md-end  ">
           <button
             type="button"
