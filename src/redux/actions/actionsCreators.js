@@ -7,7 +7,7 @@ export const getCard = ciudad => {
   return async function (dispatch) {
     return axios
       .get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`
       )
       .then(recurso => {
         if (recurso.data.main !== undefined) {

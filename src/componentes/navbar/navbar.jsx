@@ -19,6 +19,7 @@ function Nav() {
   const handleSubmit = e => {
     e.preventDefault();
     dispatch(getCard(name));
+    console.log(name);
     setName('');
     setMsg('');
   };
